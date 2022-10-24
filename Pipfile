@@ -5,7 +5,7 @@ name = "pypi"
 
 [packages]
 flask = "*"
-flask-sqlalchemy = "*"
+flask-sqlalchemy = "==2.5.1"
 flask-migrate = "*"
 sqlalchemy-serializer = "*"
 flask-restful = "*"
@@ -17,4 +17,4 @@ psycopg2 = "*"
 [dev-packages]
 
 [requires]
-python_version = "3.8"
+python_version = "3.8.13"
